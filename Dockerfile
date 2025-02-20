@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.11-alpine
 RUN apk add build-base
 
 RUN pip install --quiet --no-cache-dir mkdocs
